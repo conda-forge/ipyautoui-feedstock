@@ -40,6 +40,9 @@ requirements:
     - pyyaml
     - stringcase
     - wcmatch
+    - deepdiff
+    - datamodel-code-generator >=0.28.5
+    - xlsxdatagrid >=0.3.2,<0.4
 
 test:
   imports:
