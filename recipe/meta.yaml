@@ -1,5 +1,5 @@
 {% set name = "ipyautoui" %}
-{% set version = "0.7.26" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ipyautoui-{{ version }}.tar.gz
-  sha256: e3e2cc5305cc44983066c95b1c1aa0233f5753a50a79ef7c17fe51e4bfb11092
+  sha256: d08ca668e37b8835d7abc511f5571ade3010fd63e5b5a2db486dc6f50967ef42
 
 build:
   noarch: python
