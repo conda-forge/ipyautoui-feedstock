@@ -38,10 +38,9 @@ requirements:
     - pydantic-settings
     - pydantic-extra-types
     - pyyaml
-    - stringcase
     - wcmatch
     - deepdiff
-    - datamodel-code-generator >=0.28.5
+    - datamodel-code-generator >=0.40.0,<0.41
     - xlsxdatagrid >=0.3.3,<0.4
 
 test:
